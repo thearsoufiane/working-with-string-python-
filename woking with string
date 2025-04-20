@@ -1,0 +1,71 @@
+phrase= " graphic \n desing "
+print(phrase)
+
+# ====== we will give us tow line ======
+
+phrase= " graphic desing "
+print(phrase + "is perfect ")
+
+# ====== when we put + another phrase we will add it in code  ======
+
+phrase = "  graphic design"
+print(phrase.lower())
+
+# ====== we will give us the same nothing change BUT when we put upper different gonna happen ======
+
+phrase = " graphic desing "
+print( phrase.upper())
+
+# ====== it give us the same thing but its in big letters, BUT when we put isupper different gonna happen ======
+
+phrase = " graphic desing "
+print(phrase.isupper())
+
+# ====== we will give us FALSE , BUT , when we put.upper().isupper() different gonna happen  ======
+
+phrase = " graphic desing "
+print(phrase.upper().isupper())
+
+# ====== we will give us TRUE ======  NOW WILL DO A DIFFERENT THINGS
+
+# ====== I could just add LEN  ======
+
+phrase = "graphic design"
+print(len(phrase))
+
+# ====== We will give us how much letter in phrase its 14  ======
+
+
+# ====== Now we can try another thing its []  ======
+
+
+phrase ="graphic desing "
+print(phrase[0])
+
+# ====== We will give us g because g is number 0 in the phrase   ======
+# ====== We can try number 3   ======
+
+phrase = "graphic desing "
+print(phrase[3])
+
+# ====== We will give us p because p is number 3 in the phrase  ======
+
+# ====== ok lets try another thing its (index.) ======
+
+phrase = "graphic desing "
+print(phrase.index('g'))
+
+# ====== its like doing [] , g is the number 0 in the phrase  ======
+
+
+# ====== NOTE < when we write a letter, not found in the sentence we will give us error  ======
+
+# ====== okay lets try the last thing its ( replace)  ======
+
+phrase = "graphic desing "
+print(phrase.replace("graphic" ,"image "))
+
+
+# ====== its will replace graphic to image  ======
+
+
